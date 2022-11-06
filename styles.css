@@ -7,7 +7,7 @@
 .header {
     height: 300px;
     width: 100%;
-    background-image: url(./img/sanya-header.jpg);
+    background: url(./img/sanya-header.jpg) center;
     background-size: cover;
     border: 6px ridge #000000;
     display: flex;
