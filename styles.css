@@ -4,6 +4,24 @@
 	box-sizing: border-box;
 }
 
+.header {
+    height: 300px;
+    width: 100%;
+    background-image: url(./img/sanya-header.jpg);
+    background-size: cover;
+    border: 6px ridge #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    padding-top: 80px;
+    font-size: 60px;
+    color: aqua;
+    -webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #000000;
+}
+
 .sanya-block {
     display: flex;
     flex-direction: column;
